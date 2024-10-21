@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./src/images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 75%; 
+    background-size: cover;
+    height: 60vh;
+}
+li{
+  color: rgb(134, 54, 209);
+
+  a{
+    color: rgb(134, 54, 209);
+  }
+}
+.catcher{
+    width: 65rem;
+    display: block;
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 10rem;
+
+    h1{
+        font-size: 9rem;
+        color: white;
+        font-family: "Love Ya Like A Sister", cursive;
+        font-weight: 500;
+        font-style: normal;
+          
+          
+    }
+    p{
+        font-size: 1.5rem;
+        color: white;
+    }
+    button{
+        background-color: rgb(134, 54, 209);
+        color: white;
+        width: 8rem;
+        height: 2.5rem;
+        border: none;
+    }
+}
+.idea{
+    margin-top: 5rem;
+
+    h2{
+        font-size: 3.5rem;
+        color: black;
+        font-family: "Love Ya Like A Sister", cursive;
+        font-weight: 500;
+        font-style: normal;
+        
+    }
+    h3{
+        font-size: 2.5rem;
+        color: black;
+        font-family: "Love Ya Like A Sister", cursive;
+        font-weight: 500;
+        font-style: normal;
+    }
+    p{
+        width: 30rem;
+    }
+    img{
+        border: 1px solid black;
+}
+}
+.cards{
+    background-color: rgb(134, 54, 209);
+    width: 99.4vw;
+    margin-left: -1rem;
+
+    h2{
+        font-size: 4rem;
+        font-family: "Love Ya Like A Sister", cursive;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .col:nth-child(1){
+        margin-top: 10rem;
+        height: 28rem;
+    }
+    .col:nth-child(2){
+        margin-top: 5.5rem;
+        height: 38rem;
+    }
+    .col:nth-child(3){
+        margin-top: 2rem;
+        height: 47rem;
+    }
+    .col:nth-child(4){
+        margin-top: 9rem;
+        height: 31rem;
+    }
+    .btn{
+        border: 1px solid rgba(134, 54, 209, 0.6);
+        font-weight: 300;
+        border-radius: 0%;
+        cursor: pointer;
+    }
+    .col:hover{
+        position: relative;
+        box-shadow: 3px 3px 5px;
+    }
+}
+.booking{
+    height: 60vh;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    h2{
+        margin: 2rem 0;
+        font-size: 3.5rem;
+        font-family: "Love Ya Like A Sister", cursive;
+        font-weight: 500;
+        font-style: normal;
+    }
+    form{
+        padding: 0.5rem;
+    }
+    .click{
+        background-color: rgb(134, 54, 209);
+        color: white;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+    .click:hover{
+        box-shadow: 3px 3px 5px black;
+        font-size: 1.05rem;
+    }
+
+}
+
+
+
+footer{
+    background-color: black;
+    height: 4rem;
+    p{
+        display: flex;
+        justify-content: end;
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.4);
+    }
+}
